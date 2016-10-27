@@ -22,13 +22,14 @@
 		</tr>
 		<tr>
 			<td>Captcha:</td>
-			<img src="/github/CMS/index.php/Home/Index/showCaptcha" onclick=this.src="/github/CMS/index.php/Home/Index/showCaptcha/"+Math.random() style="cursor=pointer" />
+			
 			<td><input type="text" name="captcha"></td>
 		</tr>
-		<tr>
-			<td colspan="2"><input type="submit" value="sign up"></td>
-		</tr>
+		
 	</table>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/github/CMS/index.php/Home/Index/showCaptcha" onclick=this.src="/github/CMS/index.php/Home/Index/showCaptcha/"+Math.random() style="cursor=pointer" />
+			<br />
+			<input type="submit" value="sign up">
 </form>
 </div>
 </html>
