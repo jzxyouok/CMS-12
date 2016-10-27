@@ -15,7 +15,7 @@
 			<br />
 			<input type="text" name="captcha">
 			<br />
-			<input type="submit" value="login">
+			<input type="submit" value="sign in"> <a href="index.php/Home/Index/register">sign up</a>
 			<br />
 		</form>
 		</div>

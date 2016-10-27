@@ -28,7 +28,33 @@ class IndexController extends Controller {
 		if(!$User->where($login)->select()){
 			exit('Incorrect username or password!');
 		}
-		
+		session_start();
 		
 	}
+	
+	public function register(){
+		$this->display();
+	}
+	
+	public function doRegister($code = '', $id = ''){
+		$Verify = new \Think\Verify();
+		
+		if(!$Verify->check($_POST['captcha'])){
+			exit('Wrong captcha!');
+		}
+		$register['username'] = $_POST['username'];
+		$register['password1'] = $_POST['password1'];
+		$register['password2'] = $_POST['password2'];
+		$register['email'] = $_POST['email'];
+		if(empty($register['username']) || empty($register['password1']) || $register['password1'] != $register['password1']){
+			exit('incorrect user info');
+		}
+		$User = M('user');
+		$result = $User->add($register);
+		if(!result){
+			exit('Register failed!please go back and try again');
+		}
+	}
+	
+	
 }
