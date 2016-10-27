@@ -3,6 +3,32 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
-        $this->show('<style type="text/css">*{ padding: 0; margin: 0; } div{ padding: 4px 48px;} body{ background: #fff; font-family: "微软雅黑"; color: #333;font-size:24px} h1{ font-size: 100px; font-weight: normal; margin-bottom: 12px; } p{ line-height: 1.8em; font-size: 36px } a,a:hover{color:blue;}</style><div style="padding: 24px 48px;"> <h1>:)</h1><p>欢迎使用 <b>ThinkPHP</b>！</p><br/>版本 V{$Think.version}</div><script type="text/javascript" src="http://ad.topthink.com/Public/static/client.js"></script><thinkad id="ad_55e75dfae343f5a1"></thinkad><script type="text/javascript" src="http://tajs.qq.com/stats?sId=9347272" charset="UTF-8"></script>','utf-8');
+        $this->display();
     }
+	
+	public function showCaptcha(){
+		$config = array(	//验证码配置
+			'length'	=> 4,//验证码长度
+			'fontSize'  => 15,//字体大小
+			'useNoise'  => true,//启用躁点
+			'expire'	=> 30,	//验证码有效时间（秒）
+		);
+		$Verify = new \Think\Verify($config);
+		$Verify->entry();
+	}
+	public function verifyLoginInput($code = '',$id = ''){	//检测登陆信息
+		$Verify = new \Think\Verify();
+		$checkCapt = $Verify->check($_POST['captcha']);				//先检测验证码
+		if(!$checkCapt){
+			exit('Wrong captcha,please go back and try again!');
+		}
+		$User = M('user');											//再检测用户名密码
+		$login['username'] = $_POST['username'];	//数组条件查询
+		$login['password'] = $_POST['password'];
+		if(!$User->where($login)->select()){
+			exit('Incorrect username or password!');
+		}
+		
+		
+	}
 }
