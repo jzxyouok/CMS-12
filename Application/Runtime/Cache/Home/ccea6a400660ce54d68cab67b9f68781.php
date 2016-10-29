@@ -5,7 +5,7 @@ xmlns="http://www.w3.org/1999/xhtml"><HEAD><META content="IE=11.0000"
 http-equiv="X-UA-Compatible">
  
 <META http-equiv="Content-Type" content="text/html; charset=utf-8"> 
-<TITLE>注册</TITLE> 
+<TITLE>登录页面</TITLE> 
 <SCRIPT src="/git/CMS/Public/js/jquery-1.9.1.min.js" type="text/javascript"></SCRIPT>
  
 <STYLE>
@@ -149,40 +149,33 @@ $(function(){
  
 <META name="GENERATOR" content="MSHTML 11.00.9600.17496"></HEAD> 
 <BODY>
-<div class="top_div"><br /><h1 align="center" >欢迎注册</h1></div>
+<div class="top_div"></div>
 <div style="background: rgb(255, 255, 255); margin: -100px auto auto; border: 1px solid rgb(231, 231, 231); border-image: none; width: 400px; height: 200px; text-align: center;">
 	<div style="width: 165px; height: 96px; position: absolute;">
 		<div class="tou"></div>
 		<div class="initial_left_hand" id="left_hand"></div>
 		<div class="initial_right_hand" id="right_hand"></div>
 	</div>
-<form action="/git/CMS/index.php/Home/Index/doRegister" method="post">
+<form action="/git/CMS/index.php/Home/Index/verifyLoginInput" method="post">
 	<p style="padding: 30px 0px 10px; position: relative;">
 	<sapn	class="u_logo"></sapn>         
-<input class="ipt" type="text" placeholder="请输入用户名" name="username"> 
-	</p>
-	<p style="padding: 30px 0px 10px; position: relative;">
-	<sapn	class="u_logo"></sapn>         
-<input class="ipt" type="text" placeholder="请输入邮箱" name="username"> 
+<input class="ipt" type="text" placeholder="请输入用户名或邮箱" name="username"> 
 	</p>
 	<p style="position: relative;"><sapn class="p_logo"></sapn>         
-<input class="ipt" id="password" type="password" placeholder="请输入密码" name="password1">   
-  	</p>
-  	<p style="position: relative;"><sapn class="p_logo"></sapn>         
-<input class="ipt" id="password" type="password" placeholder="再次输入密码" name="password2">   
+<input class="ipt" id="password" type="password" placeholder="请输入密码" name="password">   
   	</p>
   	<p style="padding: 30px 0px 10px; position: relative;">
 	<sapn	class="u_logo"></sapn>         
 <input class="ipt" id="" type="text" placeholder="请输入验证码" name="captcha"> 
 	</p>
 	<p><br />
-	<img height="" width="" src="/git/CMS/index.php/Home/Index/showCaptcha" onclick=this.src="/git/CMS/index.php/Home/Index/showCaptcha/"+Math.random() style="cursor:pointer;" />
+	<img src="/git/CMS/index.php/Home/Index/showCaptcha" onclick=this.src="/git/CMS/index.php/Home/Index/showCaptcha/"+Math.random() style="cursor:pointer;" />
 	</p>
   
 	<div style="height: 50px; line-height: 50px; margin-top: 30px; border-top-color: rgb(231, 231, 231); border-top-width: 1px; border-top-style: solid;">
 		<p style="margin: 0px 35px 20px 45px;"><sapn style="float: left;"><a style="color: rgb(204, 204, 204);" href="#">忘记密码?</a></sapn> 
-           <sapn style="float: right;"><a style="color: rgb(204, 204, 204); margin-right: 10px;" href="/git/CMS/index.php/Home/Index">已有账号？登录</a>  
-              <input type="submit" value="注册" style="background: rgb(0, 142, 173); padding: 7px 10px; border-radius: 4px; border: 1px solid rgb(26, 117, 152); border-image: none; color: rgb(255, 255, 255); font-weight: bold;" href="#">
+           <sapn style="float: right;"><a style="color: rgb(204, 204, 204); margin-right: 10px;" href="#">注册</a>  
+              <input type="submit" value="登录" style="background: rgb(0, 142, 173); padding: 7px 10px; border-radius: 4px; border: 1px solid rgb(26, 117, 152); border-image: none; color: rgb(255, 255, 255); font-weight: bold;" href="#">
            </sapn>         
 		</p>
     </div>

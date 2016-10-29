@@ -28,6 +28,7 @@ class IndexController extends Controller {
 		if(!$User->where($login)->select()){
 			exit('Incorrect username or password!');
 		}
+		echo 'Welcome!';
 		session_start();
 		
 	}
