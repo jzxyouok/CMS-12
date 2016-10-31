@@ -17,19 +17,24 @@ class IndexController extends Controller {
 		$Verify->entry();
 	}
 	public function verifyLoginInput($code = '',$id = ''){	//检测登陆信息
+		session_start();
 		$Verify = new \Think\Verify();
 		$checkCapt = $Verify->check($_POST['captcha']);				//先检测验证码
 		if(!$checkCapt){
-			exit('Wrong captcha,please go back and try again!');
+			$this->error('Wrong captcha,please go back and try again!', 'index');
 		}
 		$User = M('user');											//再检测用户名密码
 		$login['username'] = $_POST['username'];	//数组条件查询
 		$login['password'] = $_POST['password'];
 		if(!$User->where($login)->select()){
-			exit('Incorrect username or password!');
+			$this->error('错误的用户名或密码！', 'index');
+			exit();
+		}else{
+			$_SESSION['user_login'] = true;
+			$this->success('欢迎！', 'main');
+
 		}
-		echo 'Welcome!';
-		session_start();
+		
 		
 	}
 	
@@ -48,14 +53,23 @@ class IndexController extends Controller {
 		$register['password2'] = $_POST['password2'];
 		$register['email'] = $_POST['email'];
 		if(empty($register['username']) || empty($register['password1']) || $register['password1'] != $register['password1']){
-			exit('incorrect user info');
+			$this->error('incorrect user info', 'register');
 		}
 		$User = M('user');
 		$result = $User->add($register);
 		if(!result){
-			exit('Register failed!please go back and try again');
+			$this->error('Register failed!please go back and try again', 'register');
+			exit();
 		}
 	}
 	
+	public function main(){
+		session_start();
+		if(!isset($_SESSION['user_login'])){
+			$this->error('请先登录！', 'index');
+			exit();
+		}
+		$this->display('');
+	}
 	
 }

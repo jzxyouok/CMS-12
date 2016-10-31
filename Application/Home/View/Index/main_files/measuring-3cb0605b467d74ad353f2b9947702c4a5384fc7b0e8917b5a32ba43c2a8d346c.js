@@ -1,0 +1,1 @@
+function now(){return window.performance&&window.performance.now()||(new Date).getTime()}function measure(e){measureTimes[e]=now(),measures[e]=measures[e]||0}function measureEnd(e){measures[e]+=now()-measureTimes[e]}var measureTimes={},measures={};

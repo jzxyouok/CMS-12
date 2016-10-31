@@ -298,3 +298,9 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
 ERR: 无法加载模块:Public
 
+[ 2016-10-30T13:25:17+08:00 ] 127.0.0.1 /git/CMS/index.phpp/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+ERR: 无法加载模块:Index.phpp
+
