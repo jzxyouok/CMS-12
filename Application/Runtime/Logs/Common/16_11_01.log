@@ -1,0 +1,30 @@
+[ 2016-11-01T00:27:12+08:00 ] 127.0.0.1 /git/CMS/Public/css/__PUBLIC__/images/background.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+ERR: 无法加载模块:Public
+
+[ 2016-11-01T00:27:12+08:00 ] 127.0.0.1 /git/CMS/Public/css/__PUBLIC__/images/background.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 无法加载模块:Public
+
+[ 2016-11-01T00:27:12+08:00 ] 127.0.0.1 /git/CMS/Public/css/__PUBLIC__/images/background.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+ERR: 无法加载模块:Public
+
+[ 2016-11-01T00:27:12+08:00 ] 127.0.0.1 /git/CMS/Public/css/__PUBLIC__/images/background.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+ERR: 无法加载模块:Public
+
+[ 2016-11-01T00:27:13+08:00 ] 127.0.0.1 /git/CMS/Public/css/__PUBLIC__/images/background.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+ERR: 无法加载模块:Public
+

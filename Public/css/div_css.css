@@ -1,0 +1,14 @@
+#wrapper{
+	margin: 0 auto;position: relative;width: 610px;height: 559px;background: url("__PUBLIC__/images/background.png") no-repeat
+}
+/*position: relative是绝对定位关键，父级设置*/
+.box1{
+	position: absolute;width: 147px;height: 140px;left: 198px;top:14px;
+}
+.box2{
+	position: absolute;width: 141px;height: 186px;left: 31;bottom: 17px;
+}
+.box3{
+	position: absolute;width: 132px;height: 188px;right: 28px;bottom: 67px;
+}
+/*三个小盒子使用position:relaltive 同时设置宽度 高度 left right top bottom top 实现布局与准确定位*/

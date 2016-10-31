@@ -109,3 +109,1531 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
 
+[ 2016-10-31T23:14:15+08:00 ] 127.0.0.1 /git/CMS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-10-31T23:14:15+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/showCaptcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2016-10-31T23:14:18+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-10-31T23:14:18+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/showCaptcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000231s ]
+
+[ 2016-10-31T23:14:27+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/showCaptcha/0.4594752708373424
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000215s ]
+
+[ 2016-10-31T23:14:28+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/showCaptcha/0.05696882716934182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-10-31T23:14:33+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/doRegister
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] Undefined index: email /opt/lampp/htdocs/git/CMS/Application/Home/Controller/IndexController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0009s ]
+SQL: INSERT INTO `cms_user` (`email`) VALUES (NULL) [ RunTime:0.0027s ]
+NOTIC: [8] Use of undefined constant result - assumed 'result' /opt/lampp/htdocs/git/CMS/Application/Home/Controller/IndexController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-10-31T23:15:47+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/showCaptcha/0.538615829313876
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000237s ]
+
+[ 2016-10-31T23:15:48+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/showCaptcha/0.5750133699274875
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000223s ]
+
+[ 2016-10-31T23:15:53+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/doRegister
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined index: email /opt/lampp/htdocs/git/CMS/Application/Home/Controller/IndexController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0004s ]
+SQL: INSERT INTO `cms_user` (`email`) VALUES (NULL) [ RunTime:0.0028s ]
+NOTIC: [8] Use of undefined constant result - assumed 'result' /opt/lampp/htdocs/git/CMS/Application/Home/Controller/IndexController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-10-31T23:15:54+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /opt/lampp/htdocs/git/CMS/Application/Home/Controller/IndexController.class.php 第 70 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+
+[ 2016-10-31T23:15:57+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000249s ]
+
+[ 2016-10-31T23:15:57+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/showCaptcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-10-31T23:16:00+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000239s ]
+
+[ 2016-10-31T23:16:00+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/showCaptcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-10-31T23:16:13+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/doRegister
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined index: email /opt/lampp/htdocs/git/CMS/Application/Home/Controller/IndexController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0004s ]
+SQL: INSERT INTO `cms_user` (`email`) VALUES (NULL) [ RunTime:0.0026s ]
+NOTIC: [8] Use of undefined constant result - assumed 'result' /opt/lampp/htdocs/git/CMS/Application/Home/Controller/IndexController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000235s ]
+
+[ 2016-10-31T23:16:14+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /opt/lampp/htdocs/git/CMS/Application/Home/Controller/IndexController.class.php 第 70 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+
+[ 2016-10-31T23:16:17+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000193s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000203s ]
+
+[ 2016-10-31T23:16:17+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/showCaptcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-10-31T23:17:47+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000211s ]
+
+[ 2016-10-31T23:17:47+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/showCaptcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-10-31T23:17:54+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/doRegister
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined index: email /opt/lampp/htdocs/git/CMS/Application/Home/Controller/IndexController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0004s ]
+SQL: INSERT INTO `cms_user` (`email`) VALUES (NULL) [ RunTime:0.0026s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /opt/lampp/htdocs/git/CMS/Application/Home/Controller/IndexController.class.php 第 60 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /opt/lampp/htdocs/git/CMS/Application/Home/Controller/IndexController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000241s ]
+
+[ 2016-10-31T23:17:55+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /opt/lampp/htdocs/git/CMS/Application/Home/Controller/IndexController.class.php 第 71 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000495s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /opt/lampp/htdocs/git/CMS/Application/Runtime/Cache/Home/4462707c48390994935bf3e366c221aa.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-10-31T23:17:56+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/67cfc3c03a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:56+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/nr-974.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:56+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/measuring-3cb0605b467d74ad353f2b9947702c4a5384fc7b0e8917b5a32ba43c2a8d346c.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:56+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-97aea26ad930716d9eb71469fbb6d0f28374b9fd2e40bd97ae3c5a01806792bf.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:56+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-safetynet-0f34a7d0189b757b194c00fbe766c4af38f43afaf1c74a28baab5cb2f8444ab2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:56+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-jquery-3-5c8464b287170dc1f9032c3e730a821ba9b30c14f9124ab7f5beb7f54337c834.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:56+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-libraries-dbf379d8cf90d8565fd62571a872e032eb012a9d66484de3fd4e5df228776cfa.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:56+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-1b086bf2e2b7accb63bc9dd3a04df3ac394f8c0971c911f7be88f1ee3fdecbc5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:56+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-content-zh-CN-f7e9d3d67c8b52e0c01a21d8b4e7cf4283e22ec4ea80a347a1d9c3938cef9762.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:56+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/nr-974.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:56+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/measuring-3cb0605b467d74ad353f2b9947702c4a5384fc7b0e8917b5a32ba43c2a8d346c.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:56+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-97aea26ad930716d9eb71469fbb6d0f28374b9fd2e40bd97ae3c5a01806792bf.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:56+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-safetynet-0f34a7d0189b757b194c00fbe766c4af38f43afaf1c74a28baab5cb2f8444ab2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:56+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-jquery-3-5c8464b287170dc1f9032c3e730a821ba9b30c14f9124ab7f5beb7f54337c834.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:56+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-libraries-dbf379d8cf90d8565fd62571a872e032eb012a9d66484de3fd4e5df228776cfa.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:56+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-content-zh-CN-f7e9d3d67c8b52e0c01a21d8b4e7cf4283e22ec4ea80a347a1d9c3938cef9762.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:56+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-1b086bf2e2b7accb63bc9dd3a04df3ac394f8c0971c911f7be88f1ee3fdecbc5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/crn2fyiqryev95cd1snt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/oic1uazyx9j5ag0syi7v
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/cqfdivvir4qifcknbwtp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/nif9lbzqpdtabeqyu8qh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/n8mpa1ovle6vz8dnje1k
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/nwbojkfx8vy4zjtoowbv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/cycorxn7pt4wazdlhsnv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/quasxdkmswnacwxkjddm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/xcqftwpb9hncdceupfeu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/WqaHkD-d5f2bf45131a40f9fe6175f30f906d9aa724880e87858f4eafd6244af8825588.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/raboetlc6aw6y3bnbypk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/mbtveliv8fiybnbg7bac
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/ne9tsyobangnq0f7soob
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/obqah6fnsbrs61fseyp6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/b8if0zith14lmftz0b5m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/dvgqy3lwhlz4y7jhbxrr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/ZY1U7x-c841c209db39fd4c1128f1064a93ef5212937bf0b033a39059db6bc1832449fd.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/bvuqbzm2aaium0xufcr8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/njdartqcsiiaxyoxwcbm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/ixb5vltjrne2opzkatk7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/sozr44sd2y7wopjfvpxl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/WEXiwO-6a9cf0138aaffdfe78bcaf10bfbc0d87cae2c6de6f507462f228a789421a414f.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/ZYah7P-6ec7f52eb46b1f383d060b281cf4b1f3eaa394762cb0078b868d46d650fb370e.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/WPMUab-61d4b236e913b83932060ef477f484040b3bbbdee9fc35fd5e4a20cd21b88812.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/a7num2gf0unkgaxiy6b4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/khb7noawzhgidyaunvpm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/sat0gg56rg3kd1pdbuki
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/dooc4bwrxpoy8kfds8yp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/ZmAHwG-093cac2895b21e924895863e6189d7419c70119ffa5b361ec21cbc04d6fa4da5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/pnhacfouc5lhk9xgn4pa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/l1pijqjomp5tm6sugqsl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/WE2swk-bbaecb040182150ec20610f929680113e657705d04817f0c5f2431ccd2a2ffb3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/bf7npiayxsubl4ntibov
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/aur5lkiuv8bib5l1n1fu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:58+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/yvp7daabvmenzvb1rgph
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:59+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/e0e3ez75njtiqflhpck1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:59+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/W2phnr-a8d9721897b1f29e10ce4bf9b6372dae7f4d516a7264c4f8225ff28ca5e47ebe.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+
+[ 2016-10-31T23:17:59+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/ygeqxj7bmmzdwsojklq9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:59+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/cmmesetudeda1z9r98sz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:59+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/lnspsvxrufnfyuqxgmkf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:59+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/tdl6jjqdi2ugw18vhsyw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:59+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/Vbpun1-9f0f1530af86e64fec5ba5a3437b045c39e4fec176d60b5472959f478b88732c.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+
+[ 2016-10-31T23:17:59+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/chinanews.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:17:59+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/rss.sina.com.cn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /opt/lampp/htdocs/git/CMS/Application/Home/Controller/IndexController.class.php 第 71 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /opt/lampp/htdocs/git/CMS/Application/Runtime/Cache/Home/4462707c48390994935bf3e366c221aa.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000241s ]
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/67cfc3c03a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-97aea26ad930716d9eb71469fbb6d0f28374b9fd2e40bd97ae3c5a01806792bf.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/nr-974.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/measuring-3cb0605b467d74ad353f2b9947702c4a5384fc7b0e8917b5a32ba43c2a8d346c.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/crn2fyiqryev95cd1snt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/nwbojkfx8vy4zjtoowbv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/n8mpa1ovle6vz8dnje1k
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/oic1uazyx9j5ag0syi7v
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/cqfdivvir4qifcknbwtp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-safetynet-0f34a7d0189b757b194c00fbe766c4af38f43afaf1c74a28baab5cb2f8444ab2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-jquery-3-5c8464b287170dc1f9032c3e730a821ba9b30c14f9124ab7f5beb7f54337c834.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/nif9lbzqpdtabeqyu8qh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-libraries-dbf379d8cf90d8565fd62571a872e032eb012a9d66484de3fd4e5df228776cfa.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-content-zh-CN-f7e9d3d67c8b52e0c01a21d8b4e7cf4283e22ec4ea80a347a1d9c3938cef9762.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/quasxdkmswnacwxkjddm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-1b086bf2e2b7accb63bc9dd3a04df3ac394f8c0971c911f7be88f1ee3fdecbc5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/nr-974.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/xcqftwpb9hncdceupfeu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/measuring-3cb0605b467d74ad353f2b9947702c4a5384fc7b0e8917b5a32ba43c2a8d346c.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/cycorxn7pt4wazdlhsnv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/WqaHkD-d5f2bf45131a40f9fe6175f30f906d9aa724880e87858f4eafd6244af8825588.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-97aea26ad930716d9eb71469fbb6d0f28374b9fd2e40bd97ae3c5a01806792bf.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/mbtveliv8fiybnbg7bac
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/raboetlc6aw6y3bnbypk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/ne9tsyobangnq0f7soob
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/obqah6fnsbrs61fseyp6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/b8if0zith14lmftz0b5m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/dvgqy3lwhlz4y7jhbxrr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/ZY1U7x-c841c209db39fd4c1128f1064a93ef5212937bf0b033a39059db6bc1832449fd.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-safetynet-0f34a7d0189b757b194c00fbe766c4af38f43afaf1c74a28baab5cb2f8444ab2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/bvuqbzm2aaium0xufcr8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/oic1uazyx9j5ag0syi7v
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/nwbojkfx8vy4zjtoowbv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/njdartqcsiiaxyoxwcbm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/n8mpa1ovle6vz8dnje1k
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/ixb5vltjrne2opzkatk7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000193s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-jquery-3-5c8464b287170dc1f9032c3e730a821ba9b30c14f9124ab7f5beb7f54337c834.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/crn2fyiqryev95cd1snt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-libraries-dbf379d8cf90d8565fd62571a872e032eb012a9d66484de3fd4e5df228776cfa.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/sozr44sd2y7wopjfvpxl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-content-zh-CN-f7e9d3d67c8b52e0c01a21d8b4e7cf4283e22ec4ea80a347a1d9c3938cef9762.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/WEXiwO-6a9cf0138aaffdfe78bcaf10bfbc0d87cae2c6de6f507462f228a789421a414f.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/application-1b086bf2e2b7accb63bc9dd3a04df3ac394f8c0971c911f7be88f1ee3fdecbc5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/ZYah7P-6ec7f52eb46b1f383d060b281cf4b1f3eaa394762cb0078b868d46d650fb370e.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/cqfdivvir4qifcknbwtp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/nif9lbzqpdtabeqyu8qh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/WPMUab-61d4b236e913b83932060ef477f484040b3bbbdee9fc35fd5e4a20cd21b88812.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/a7num2gf0unkgaxiy6b4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/khb7noawzhgidyaunvpm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/sat0gg56rg3kd1pdbuki
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/dooc4bwrxpoy8kfds8yp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/ZmAHwG-093cac2895b21e924895863e6189d7419c70119ffa5b361ec21cbc04d6fa4da5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/pnhacfouc5lhk9xgn4pa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/l1pijqjomp5tm6sugqsl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/WE2swk-bbaecb040182150ec20610f929680113e657705d04817f0c5f2431ccd2a2ffb3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/bf7npiayxsubl4ntibov
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/aur5lkiuv8bib5l1n1fu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/yvp7daabvmenzvb1rgph
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/e0e3ez75njtiqflhpck1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:01+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/W2phnr-a8d9721897b1f29e10ce4bf9b6372dae7f4d516a7264c4f8225ff28ca5e47ebe.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+
+[ 2016-10-31T23:18:02+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/ygeqxj7bmmzdwsojklq9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:02+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/cmmesetudeda1z9r98sz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:02+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/lnspsvxrufnfyuqxgmkf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:02+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/tdl6jjqdi2ugw18vhsyw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:02+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/Vbpun1-9f0f1530af86e64fec5ba5a3437b045c39e4fec176d60b5472959f478b88732c.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+
+[ 2016-10-31T23:18:02+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/chinanews.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:02+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/rss.sina.com.cn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:02+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/quasxdkmswnacwxkjddm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:02+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/xcqftwpb9hncdceupfeu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:02+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/cycorxn7pt4wazdlhsnv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:02+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/WqaHkD-d5f2bf45131a40f9fe6175f30f906d9aa724880e87858f4eafd6244af8825588.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+
+[ 2016-10-31T23:18:02+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/raboetlc6aw6y3bnbypk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+ERR: 非法操作:main_files
+
+[ 2016-10-31T23:18:02+08:00 ] 127.0.0.1 /git/CMS/index.php/Home/Index/main_files/mbtveliv8fiybnbg7bac
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+ERR: 非法操作:main_files
+

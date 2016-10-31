@@ -56,10 +56,14 @@ class IndexController extends Controller {
 			$this->error('incorrect user info', 'register');
 		}
 		$User = M('user');
-		$result = $User->add($register);
+		$result = $User->field('username','password','email')->data($register)->add();
+		session_start();
 		if(!result){
 			$this->error('Register failed!please go back and try again', 'register');
 			exit();
+		}else{
+			$_SESSION['user_login'] = true;
+			$this->success('','main');
 		}
 	}
 	
@@ -70,6 +74,10 @@ class IndexController extends Controller {
 			exit();
 		}
 		$this->display('');
+	}
+
+	public function div_css(){
+		$this->display();
 	}
 	
 }
